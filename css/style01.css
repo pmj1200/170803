@@ -1,0 +1,58 @@
+.indexbg{
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  background-size: cover;
+  background-position: center;
+}
+
+.footer{
+  width: 100%;
+  position: fixed;
+  height: 20px;
+  bottom: 0px;
+  background-color: gray;
+  z-index: 5;
+}
+.body{
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+}
+
+.gridNav{
+  width: 20%;
+  position: fixed;
+  top: 30%;
+  left: 15%;
+  z-index: 5;
+}
+
+.gridNavText a{
+  color: white;
+  text-decoration: none;
+}
+
+.gridNavLogo img{
+  width: 20px;
+  height: 20px;
+}
+
+.carousel {
+  position: static;
+}
+
+.carousel-control {
+  width: 5%;
+}
+
+.carousel-inner {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+}
+
+.carousel-inner>.item {
+  position: fixed;
+}
