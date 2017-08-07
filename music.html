@@ -30,27 +30,38 @@
 
 </head>
 
-<body class="musicBg" style="background-image:url(img/bg.jpg)">
+<body class="musicBg" style="background-image:url(img/musicplayerbg.jpg)">
   <div class="gridNav container gridNavText gridNavLogo gridNavList">
-    <div class="row ">
-      <div class="col-md-4 dropdown">
+    <div class="row">
+      <div class="col-md-3 dropdown">
         <img src="./img/logo.png"/>
-        <div class="dropdown-content">
-          <a href="music.html">音乐</a><
-          <a href="gallery.html">画廊</a>
+        <div class="dropdown-content dropdown-content-bg">
+          <a href="music.html">/音乐</a>
+          <a href="index.html">/画廊</a>
         </div>
       </div>
-      <div class="col-md-8">
-        <a>Souvenirs d'un autre monde</a>
+      <div class="col-md-9">
+        <h1>/Souvenirs d'un autre monde</h1>
       </div>
-    <div class="row ">
-      <div class="col-md-6"><a href="gallery.html">Other Music...</a></div>
+    </div>
+    <div class="row">
+      <div class="col-md-12"><a href="#">/...</a></div>
     </div>
   </div>
 
-  <iframe class="musicPlayer" frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86
-  src="//music.163.com/outchain/player?type=2&id=16321496&auto=0&height=66">
-  </iframe>
+  <div class="gridOnBottom container">
+    <div class="row">
+      <div class="col-md-6 gridBlankPlayer">
+      </div>
+      <div class="col-md-6 gridBlankPlayer">
+        <div class="musicPlayer">
+          <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86
+          src="//music.163.com/outchain/player?type=2&id=16321496&auto=0&height=66">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <footer class="footer">
     <p>
